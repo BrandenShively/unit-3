@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+html {
+   
+    font-weight: 100;
+    height: 100%;
+    text-align: center;
+    /* display: inline-block; */
+   
+    
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    line-height: 2em;
+   
+    color: gray;
+    display: inline-block;
+    
+    margin-top: 0;
+   
+}
+
+header {
+    width: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 1em;
+    color: white;
+    padding: 10px 30px;
+    background-color: #112c57;
+    margin-top: 0;
+    text-align: center;
+}
+h2,
+.contact {
+    font-size: 1em;
+    color: #303338;
+    
+}
+
+p {
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    line-height: 1em;
+    margin-top: 5px;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+   
+}
+
+.style2 {
+    border-top: 3px double #8c8b8b;
+}
+
+fieldset {
+    border: none;
+}
+
+.txt {
+    text-align: left;
+}
+
+.sec2 {
+    font-size: .8em;
+    text-align: left;
+}
+
+.beg {
+    text-align: center;
+    margin-top: 2em;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+.inln {
+    display: block;
+    font-size: .8em;
+}
+
+.txtbox {
+    height: 2.7em;
+    width: 60%;
+    margin: 10px 10px 10px 0;
+}
+
+.txtbox2 {
+    height: 2.7em;
+    width: 20%;
+    margin: 10px 10px 10px 0;
+}
+
+
+.last {
+    display: block;
+}
+
+
+
+
+#state {
+    background-color: #dfe5f0;
+    border: none;
+    color: #bad4d3;
+   
+}
+
+#topics {
+    height: 8em;
+    width: 90%;
+    margin: 0 10px 10px 0;
+}
+
+::placeholder {
+    color: #bad4d3;
+    font-style: italic;
+    text-align: right;
+    padding-right: 5%;
+}
+
+
+
+
+
+footer {
+   
+    margin-top: 2em;
+    font-weight: 100;
+    }
+
+    #footerfont {
+        font-size: .5em;
+        color:#cadbdb;
+        text-align: center;
+    }
+
+/* Selectors------------------------------ */
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+
+textarea {
+    cursor: pointer;
+    background: #dfe5f0;
+    border-radius: .3em;
+    border: none;
+}
+
+
+
+
+button[type=submit] {
+    cursor: pointer;
+    color: white;
+    background: #58c7c3;
+    margin-right: 2.8em;
+    border-radius: .3em;
+    border: none;
+    height: 4em;
+    width: 85%;
+}
+
+input[type="submit"]{
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 1em;
+}
+
+.white:focus,
+textarea:focus {
+    background-color: white;
+}
+
+/* media queries ------------------------ */
+
+@media (min-width: 768px) {
+    .inln {
+        
+        display: inline;
+        margin: 1em;
+
+         }
+   
+         .txtbox2 {
+            height: 2.7em;
+            width: 30%;
+            margin: 10px 10px 10px 0;
+            margin-right: 33%;
+        }
+             
+
+     .special {
+         display: flex;
+         justify-content: space-between;
+         
+         
+     }
+
+}
